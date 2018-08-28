@@ -25,8 +25,15 @@ To deploy on mainnet, execute `truffle migrate`.
 
 Install https://github.com/trufflesuite/ganache
 
+### Start a local development ethereum node
+
 ```
-truffle test --network develop
+# 7545 is the port for the 'development' section in truffle.js
+ganache-cli -p 7545
+```
+
+```
+truffle test --network development
 ```
 
 ## Per module description

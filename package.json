@@ -11,7 +11,6 @@
   "dependencies": {
     "bignumber": "^1.1.0",
     "bignumber.js": "^4.1.0",
-    "fsevents": "^1.2.4",
     "ganache-cli": "^6.1.8",
     "truffle": "^4.0.1",
     "truffle-hdwallet-provider": "0.0.3",
